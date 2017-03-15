@@ -1,0 +1,95 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.container {
+	margin: 0 auto;
+	width: 75%;
+}
+nav {
+	height: 80px;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	position: fixed;
+	top:0;
+	left: 0;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	height: 40px;
+	padding: 30px 75px 10px 75px;
+}
+
+.nav-container {
+	height: 80px;
+}
+
+.nav-link {
+	float: right;
+	padding-right
+}
+
+nav a:hover {
+	background: #ff4040;
+	color: #fff;
+}
+
+.logo:hover {
+	background: #fff;
+	color: #777;
+}
+
+.twitter-icon {
+	width: 20px;
+	height: 20px;
+}
+
+header {
+	margin-top: 75px;
+	background: url(../images/frontline-creative-178990.jpg);
+		background-size: cover;
+	height: 500px;
+	color: #fff;
+}
+
+header h1 {
+	font-size: 65px;
+	margin: 0 0 15px 0;
+}
+
+header h2 {
+	font-size: 40px;
+	margin: 10px 0 5px 0;
+}
+
+header .container {
+	padding-top: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+main .container {
+	padding-top: 50px;
+}
+
+main h1 {
+	font-size: 30px;
+	margin: 0 0 20px 0;
+}
+.col-1 {
+	float: left;
+	width: 45%
+}
+
+.col-2 {
+	float: right;
+	width: 50%;
+}
+
+
+
