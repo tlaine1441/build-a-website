@@ -1,14 +1,16 @@
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
-
 
 .container {
 	margin: 0 auto;
 	width: 75%;
 }
 
-/******/
+/*     */
+/* NAV */
+/*     */
 nav {
 	height: 80px;
 	width: 100%;
@@ -45,7 +47,7 @@ nav a:hover {
 	color: #fff;
 }
 
-/******/
+/* LOGO */
 
 .logo {
 	font-size: 18px;
@@ -57,15 +59,17 @@ nav a:hover {
 	color: #ff4040;
 }
 
-/******/
+/* TWITTER ICON */
 
 .twitter-icon {
 	width: 20px;
 	height: 20px;
 }
 
-/******/
-
+/*             */
+/* HOME HEADER */
+/*             */
+  
 header {
 	background: url(../images/header-img.jpg);
 		background-size: cover;
@@ -89,7 +93,9 @@ header .container {
 	padding-top: 200px;
 }
 
-/******/
+/*              */
+/* ABOUT HEADER */
+/*              */
 
 .about-header {
 	background: #fff;
@@ -149,7 +155,10 @@ header .container {
 	color: #fff;
 	border: 1px solid #1b95e0;
 }
-/******/
+
+/*                  */
+/* PORTFOLIO HEADER */
+/*                  */
 
 .portfolio-header {
 	background: #fff;
@@ -163,12 +172,16 @@ header .container {
 	padding: 75px 0 0 0;
 }
 
+.portfolio-head-container {
+	padding: 75px 0 0 125px;
+}
+
 .portfolio-container h1 {
 	font-size: 40px;
 	margin: 0 0 15px 0;
 }
 
-.portfolio-container h2 {
+.portfolio-head-container h2 {
 	font-size: 25px;
 	font-weight: 300;
 	line-height: 1.4;
@@ -197,13 +210,21 @@ header .container {
 	background: #ff4040;
 }
 
-#projects-title {
-	color: #333;
-	margin-bottom: 45px;
+.portfolio-head-container .portfolio-title {
+	font-size: 60px;
+	margin: 0;
 }
 
 .projects h1{
 	color: #ff4040;
+}
+
+
+/* #ID */
+
+#projects-title {
+	color: #333;
+	margin-bottom: 45px;
 }
 
 
