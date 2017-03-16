@@ -7,6 +7,8 @@ body {
 	margin: 0 auto;
 	width: 75%;
 }
+
+/******/
 nav {
 	height: 80px;
 	width: 100%;
@@ -34,62 +36,114 @@ nav a {
 	padding-right
 }
 
+.twitter:hover {
+	background: #ddd;
+}
+
 nav a:hover {
 	background: #ff4040;
 	color: #fff;
 }
 
+/******/
+
+.logo {
+	font-size: 18px;
+	font-weight: 300;
+}
+
 .logo:hover {
 	background: #fff;
-	color: #777;
+	color: #ff4040;
 }
+
+/******/
 
 .twitter-icon {
 	width: 20px;
 	height: 20px;
 }
 
+/******/
+
 header {
-	margin-top: 75px;
-	background: url(../images/frontline-creative-178990.jpg);
+	background: url(../images/header-img.jpg);
 		background-size: cover;
 	height: 500px;
 	color: #fff;
+	margin-top: 75px;
 }
 
 header h1 {
 	font-size: 65px;
+	font-weight: 800;
 	margin: 0 0 15px 0;
 }
 
-header h2 {
-	font-size: 40px;
+header h3 {
+	padding-left: 10px;
 	margin: 10px 0 5px 0;
 }
 
 header .container {
 	padding-top: 200px;
-	margin: 0 auto;
-	text-align: center;
 }
 
+/******/
+
 main .container {
-	padding-top: 50px;
+	padding-top: 100px;
+	text-align: center;
+	height: 380px;
 }
 
 main h1 {
-	font-size: 30px;
-	margin: 0 0 20px 0;
-}
-.col-1 {
-	float: left;
-	width: 45%
+	font-size: 75px;
+	font-weight: 300;
+	display: block;
+	color: #ff4040;
+	margin: 0 0 75px 0;
 }
 
-.col-2 {
-	float: right;
-	width: 50%;
+.portfolio-button {
+	outline: none;
+	border: 1px solid #ff4040;
+	font-size: 22px;
+	color: #ff4040;
+	background: #fff;
+	padding: 15px 40px;
 }
+
+.portfolio-button:hover {
+
+	border-radius: 8px;
+
+}
+
+.portfolio-button:active {
+	color: #fff;
+	background: #ff4040;
+}
+
+footer {
+	background: #333;
+	color: #ff4040;
+	height: 120px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+footer h1 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+
+footer p {
+	color: #fff;
+}
+
+
 
 
 
