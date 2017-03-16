@@ -115,9 +115,7 @@ main h1 {
 }
 
 .portfolio-button:hover {
-
 	border-radius: 8px;
-
 }
 
 .portfolio-button:active {
@@ -135,15 +133,17 @@ footer {
 
 footer h1 {
 	font-size: 30px;
-	font-weight: 600;
-	margin-bottom: 50px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+footer h2 {
+	font-weight: 300;
+	margin-bottom: 25px;
 }
 
 footer p {
 	color: #fff;
+	font-weight: 300;
 }
-
-
-
-
 
