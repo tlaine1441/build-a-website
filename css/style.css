@@ -151,6 +151,55 @@ header .container {
 }
 /******/
 
+.portfolio-header {
+	background: #fff;
+	color: #333;
+	height: 250px;
+}
+
+.portfolio-container {
+	width: 55%;
+	margin: 0 auto;
+	padding: 75px 0 0 0;
+}
+
+.portfolio-container h1 {
+	font-size: 40px;
+	margin: 0 0 15px 0;
+}
+
+.portfolio-container h2 {
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 1.4;
+	color: #ff4040;
+	height: 500px;
+}
+
+.portfolio-container p {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.4;
+	margin-bottom: 30px;
+}
+
+.portfolio-container img {
+	display: block;
+	margin: 0 auto 45px auto;
+}
+
+.last {
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.portfolio-main {
+	background: #ff4040;
+}
+
+.white {
+	color: #fff;
+}
 
 
 
