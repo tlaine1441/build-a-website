@@ -201,48 +201,24 @@ header .container {
 	margin: 0 auto 45px auto;
 }
 
-.last {
-	display: block;
-	margin: 0 auto 0 auto;
-}
-
 .portfolio-experince {
 	background: #ff4040;
 }
+
+/* Portfolio Header Title */
 
 .portfolio-head-container .portfolio-title {
 	font-size: 60px;
 	margin: 0;
 }
 
+/* Change project title color */
+
 .projects h1{
 	color: #ff4040;
 }
 
-
-/* #ID */
-
-#projects-title {
-	color: #333;
-	margin-bottom: 45px;
-}
-
-
-
-
-main .container {
-	padding-top: 100px;
-	text-align: center;
-	height: 380px;
-}
-
-main h1 {
-	font-size: 75px;
-	font-weight: 300;
-	display: block;
-	color: #ff4040;
-	margin: 0 0 75px 0;
-}
+/* Button on index that directs to portfolio */
 
 .portfolio-button {
 	outline: none;
@@ -262,6 +238,31 @@ main h1 {
 	background: #ff4040;
 }
 
+/* #ID */
+
+#projects-title {
+	color: #333;
+	margin-bottom: 45px;
+}
+
+/*      */
+/* MAIN */
+/*      */
+
+main .container {
+	padding-top: 100px;
+	text-align: center;
+	height: 380px;
+}
+
+main h1 {
+	font-size: 75px;
+	font-weight: 300;
+	display: block;
+	color: #ff4040;
+	margin: 0 0 75px 0;
+}
+
 footer {
 	background: #333;
 	color: #ff4040;
@@ -269,6 +270,10 @@ footer {
 	text-align: center;
 	padding-top: 80px;
 }
+
+/*        */
+/* FOOTER */
+/*        */
 
 footer h1 {
 	font-size: 30px;
@@ -285,4 +290,3 @@ footer p {
 	color: #fff;
 	font-weight: 300;
 }
-
