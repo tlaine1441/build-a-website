@@ -91,6 +91,69 @@ header .container {
 
 /******/
 
+.about-header {
+	background: #fff;
+	color: #333;
+	height: 400px;
+}
+
+.about-container {
+	padding: 75px 0 0 125px;
+}
+
+.about-bio-container {
+	width: 45%;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+.about-title {
+	margin-bottom: 35px;
+}
+
+.about-header h2 {
+	font-size: 30px;
+	margin-bottom: 14px;
+}
+
+.taylor-span {
+	color: #ff4040;
+}
+
+.about-main {
+	background: #ff4040;
+}
+
+.about-main h1 {
+	color: white;
+}
+
+.about-button {
+	outline: none;
+	border: 1px solid #fff;
+	font-size: 22px;
+	color: #fff;
+	background: #ff4040;
+	padding: 15px 40px;
+}
+
+.about-button:hover {
+	border-radius: 8px;
+	border: 1px solid #1b95e0;
+	color: #1b95e0;
+}
+
+.about-button:active {
+	background: #1b95e0;
+	color: #fff;
+	border: 1px solid #1b95e0;
+}
+/******/
+
+
+
+
 main .container {
 	padding-top: 100px;
 	text-align: center;
