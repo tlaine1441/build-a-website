@@ -119,8 +119,8 @@ header .container {
 }
 
 .about-header h2 {
-	font-size: 30px;
-	margin-bottom: 14px;
+	font-size: 35px;
+	margin-bottom: 25px;
 }
 
 .taylor-span {
@@ -208,8 +208,8 @@ header .container {
 /* Portfolio Header Title */
 
 .portfolio-head-container .portfolio-title {
-	font-size: 60px;
-	margin: 0;
+	font-size: 64px;
+	margin: 0 0 10px 0;
 }
 
 /* Change project title color */
